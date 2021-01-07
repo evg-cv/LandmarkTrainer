@@ -1,9 +1,9 @@
-## LipDetector
+## LandmarkTrainer
 
 ## Overview
 
-This project is to detect the lips for the estimation of person talking. The deep learning model is used to detect the lips
-and the OpenCV & dlib frameworks are used for tracking the face and lips.
+This project is to extract the landmarks from the face and train the model. The deep learning model is used to train
+and the OpenCV & dlib frameworks are used for extraction of the landmarks.
 
 ## Structure
 
@@ -42,8 +42,6 @@ and the OpenCV & dlib frameworks are used for tracking the face and lips.
     ```
 
 ## Execution
-
-- Please create the "model" folder in the utils folder and copy the 2 models of face & lip detection.
 
 - Please run the following command in the terminal
 
